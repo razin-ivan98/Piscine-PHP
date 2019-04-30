@@ -1,0 +1,108 @@
+body
+{
+	background-color: #1b7c2b;
+    font-family: "Arial";
+    font-size: 1vmin;
+}
+h1
+{
+	font-family: cursive;
+    text-align: center;
+    font-size: 3vmin;
+	color: #312d20
+}
+div
+{
+	text-align: center;
+}
+img
+{
+    width: 18vmin;
+}
+
+map{
+    color: #1b7c2b;
+    background-color: #1b7c2b;
+}
+
+area{
+    display: block;
+    color: #1b7c2b;
+
+    background-color: #1b7c2b;
+}
+
+p
+{
+	border: 0;
+    resize: none;
+    margin: 0;
+    font-size: 1vmin;
+}
+p.num
+{
+    text-align: left;
+}
+p.mass
+{
+	text-align: right;
+}
+h2
+{
+    border: 0;
+    resize: none;
+    margin: 0;
+	font-weight: bold;
+	text-align: center;
+    font-size: 2vmin;
+}
+td
+{
+    max-width: 80px;
+    width: 12vmin;
+    height: 1vmin;
+}
+br
+{
+    line-height: 1vmin;
+}
+td.reactive-nonmetal
+{
+	background-color: #e7fc73;
+}
+td.noble-gas
+{
+	background-color: #96f5f3;
+}
+td.alkali-metal
+{
+	background-color: #be4242;
+}
+td.alkaline-earth-metal
+{
+	background-color: #bb7a30;
+}
+td.metalloid
+{
+	background-color: #634d35;
+}
+td.post-transition-metal
+{
+	background-color: #696969;
+}
+td.transition-metal
+{
+	background-color: #d48282;
+}
+td.lanthanide
+{
+	background-color: #eb6ba6;
+}
+td.actinide
+{
+	background-color: #ff3292;
+}
+td.unclassed
+{
+	background-color: #afafaf;
+}
