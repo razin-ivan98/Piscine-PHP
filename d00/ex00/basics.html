@@ -10,12 +10,9 @@
 			}
 			h1
 			{
+				font-size: 72px;
 				color: #ffffff;
 				text-align: center;
-			}
-			.shop
-			{
-				display: inline-block;
 			}
 			hr
 			{
@@ -27,17 +24,31 @@
 				font-family: monospace;
 				text-align: right;
 			}
+			#shops
+			{
+				display: flex;
+			}
+			#steam
+			{
+				flex: left;
+			}
+			#gabestore
+			{
+				flex: right;
+			}
 		</style>
 	</head>
 	<body>
 		<h1>&beta;&alpha;&sigma;&iota;&kappa;&alpha; &sigma;&tau;&omicron;&iota;&chi;&epsilon;&iota;&alpha;</h1>
-		<div class="shop">
-			<img src="https://gabestore.ru/images/logo.png" alt="gabestore.ru" height="80px">
-			<p><a href="https://gabestore.ru">gabestore.ru</a></p>
-		</div>
-		<div class="shop">
-			<img src="https://steamstore-a.akamaihd.net/public/shared/images/header/globalheader_logo.png?t=962016" alt="steam.ru" height="80px">
-			<p><a href="https://store.steampowered.com/">steam.ru</a></p>
+		<div id="shops">
+			<div id="gabestore">
+				<img src="https://gabestore.ru/images/logo.png" alt="gabestore.ru" height="80px">
+				<p><a href="https://gabestore.ru">gabestore.ru</a></p>
+			</div>
+			<div id="steam">
+				<img src="https://steamstore-a.akamaihd.net/public/shared/images/header/globalheader_logo.png?t=962016" alt="steam.ru" height="80px">
+				<p><a href="https://store.steampowered.com/">steam.ru</a></p>
+			</div>
 		</div>
 		<hr/>
 		<p class="copyright">© chorange 2019</p>
